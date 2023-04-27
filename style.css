@@ -1,0 +1,16 @@
+body {
+  font-size: 25px;
+  margin: 0px;
+}
+.Ex {
+  font-weight: bold;
+}
+.comment {
+  font-size: 15px;
+  color: green;
+}
+.input {
+  font-size: 25px;
+  height: 20px;
+  width: 10px;
+}
