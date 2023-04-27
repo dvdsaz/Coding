@@ -1,0 +1,59 @@
+<!--
+Pre is to save formatting
+Spans are per line if it has a box
+-->
+
+<pre>
+<span class="Ex">Example 1: Create Class with Empty Constructor</span>
+<span class = "comment">//Create a class name Pizza</span>
+<span class = "comment">//Set the default topping to Pepperoni</span>
+<span class = "comment">//Name the Empty Constructor</span>
+<span id="span1" >public class <input type="text" class="input" id="1" onkeyup="Check(this.id,'span1','Pizza')">{</span>
+  <span id="span2">String topping = "<input type="text" class="input" id="2" onkeyup="Check(this.id,'span2','Pepperoni')">";</span>
+  <span id="span3">public <input type="text" class="input" id="3" onkeyup="Check(this.id,'span3','Pizza')">(){};</span>
+}
+</pre>
+
+<pre>
+<span class="Ex">Example 2: Create a Pizza using the Constructor</span>
+public class Main {
+    public static void main(String[] args) {
+      <span id="span4"><input type="text" title="What is the Class name for the Object?" class="input" id="4" onkeyup="Check(this.id,'span4','Pizza')"> pep = <input type="text" title="What key word do we use to make a NEW object?" class="input" id="5" onkeyup="Check(this.id,'span4','new')"> Pizza();</span>
+  }
+}
+</pre>
+
+<pre>
+<span class="Ex">Example 3: Print the topping of the newly created pizza</span>
+public class Main {
+    public static void main(String[] args) {
+       Pizza pep = new Pizza();
+       <span id="span5"><input type="text" class="input" id="6" onkeyup="Check(this.id,'span5','System')">.out.println(<input type="text" title="What is the variable name assigned to the object created?" class="input" id="7" onkeyup="Check(this.id,'span5','pep')">.<input type="text" title="What variable does the class Pizza have?" class="input" id="8" onkeyup="Check(this.id,'span5','topping')">);</span>
+  }
+}
+</pre>
+
+<pre>
+<span class="Ex">Example 4: Create a Constructor with a parameter</span>
+<span class = "comment">//Create another Constructor with a String parameter</span>
+<span class = "comment">//Set the variable topping equal to the parameter in the constructor</span>
+public class Pizza{
+  String topping = "Pepperoni";
+  public Pizza(){};
+  <span id="span6">public Pizza(<input type="text" title="What is the datatype used?" class="input" id="9" onkeyup="Check(this.id,'span6','word')"> word){</span>
+    <span id="span7"><input type="text" title="What variable will be changed?" class="input" id="10" onkeyup="Check(this.id,'span7','topping')"> = <input type="text" title="What variable will be changed?" class="input" id="11" onkeyup="Check(this.id,'span7','word')">;</span>
+  };
+}
+</pre>
+
+<pre>
+<span class="Ex">Example 5: Create a Pizza using the new Constructor</span>
+<span class = "comment">//Create a Pineapple Pizza</span>
+<span class = "comment">//Print the Pizzas topping</span>
+public class Main {
+    public static void main(String[] args) {
+       <span id="span8">Pizza pepe = new Pizza("<input type="text" class="input" id="12" onkeyup="Check(this.id,'span8','Pineapple')">");
+       <span id="span9"><input type="text" class="input" id="13" onkeyup="Check(this.id,'span9','System')">.out.println(<input type="text" title="What is the variable name assigned to the object created?" class="input" id="14" onkeyup="Check(this.id,'span9','pepe')">.<input type="text" title="What variable does the class Pizza have?" class="input" id="15" onkeyup="Check(this.id,'span9','topping')">);</span>
+  }
+}
+</pre>
