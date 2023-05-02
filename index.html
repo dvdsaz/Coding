@@ -96,5 +96,95 @@ public class Main {
 </details>
 
 
+ <pre class="pre">
+<span class="Ex">Example 1a: Create a Dog Class with default attributes</span>
+<span id="span17" >public class <input type="text" class="input" id="24" onkeyup="Check(this.id,this.parentNode.id,'Dog')">{</span>
+  <span id="span18"><input type="text" class="input" id="25" onkeyup="Check(this.id,this.parentNode.id,'String')"> name = "Puppy";</span>
+  <span id="span19"><input type="text" class="input" id="26" onkeyup="Check(this.id,this.parentNode.id,'int')"> age = 1;</span>
+}
+</pre>
+   
+<pre class="pre">
+<span class="Ex">Example 1b: Continue the Dog Class with 3 Constructors</span>
+  
+<span id="span20" >public class Dog{</span>
+  String name="Puppy";
+  int age=1;
+  <span class = "comment">//Create an Empty Constructor</span>
+  <span id="span21" >public <input type="text" class="input" id="27" onkeyup="Check(this.id,this.parentNode.id,'Dog')">(){};</span>
+  <span class = "comment">//Create Constructor that sets the name</span>
+  <span id="span22" >public Dog(String <input type="text" class="input" id="28" onkeyup="Check(this.id,this.parentNode.id,'a')">){</span>
+    name = a;
+  }
+  <span class = "comment">//Create Constructor that sets the name and age</span>
+  public Dog(String a, int b){
+    <span id="span23" ><input type="text" class="input" id="29" onkeyup="Check(this.id,this.parentNode.id,'name')"> = a;</span>
+    <span id="span24" ><input type="text" class="input" id="30" onkeyup="Check(this.id,this.parentNode.id,'age')"> = b;</span>
+  }
+}
+</pre>
+   
+   
+<pre class="pre">
+<span class="Ex">Example 1c: Continue the Dog Class with methods</span>
+  
+public class Dog {
+  String name="Puppy";
+  int age=1;
+  
+  public Dog(){};
+  public Dog(String a){
+    name = a;
+  }
+  public Dog(String a, int b){
+    name = a;
+    age = b;
+  }
+  <span class = "comment">//Create a method called walk</span>
+  <span id="span25" >public void <input type="text" class="input" id="31" onkeyup="Check(this.id,this.parentNode.id,'walk')">(){</span>
+    <span id="span26" ><input type="text" class="input" id="32" onkeyup="Check(this.id,this.parentNode.id,'System')">.out.println("Walking");</span>
+  }
+  
+}
+</pre>
+   
+<pre class="pre">
+<span class="Ex">Example 2: Creating Dogs</span>
+public class Main {
+    public static void main(String[] args ){
+      Dog a = new Dog();
+      Dog b = new Dog("Doggy");
+      Dog c = new Dog("Diggy",5);
+      Dog e = new Dog();
+      
+  }
+}
+<span id="span27">How do we call the method walk for dog a? <input type="text" class="input" id="33" onkeyup="Check(this.id,this.parentNode.id,'a.walk()')"></span>
+
+
+<span id="span28">How many objects(Dogs) did we make? <input type="text" class="input" id="34" onkeyup="Check(this.id,this.parentNode.id,'4')"></span>
+<span id="span29">How many Dogs named Puppy did we make? <input type="text" class="input" id="35" onkeyup="Check(this.id,this.parentNode.id,'2')"></span>
+<span id="span30">How old is Doggy? <input type="text" class="input" id="36" onkeyup="Check(this.id,this.parentNode.id,'1')"></span>
+<span id="span31">How old is Diggy? <input type="text" class="input" id="37" onkeyup="Check(this.id,this.parentNode.id,'5')"></span>
+<span id="span32">Does a == b? <input type="text" class="input" id="38" onkeyup="Check(this.id,this.parentNode.id,'no')"> yes or no</span>
+<span id="span33">Does a == e? <input type="text" class="input" id="39" onkeyup="Check(this.id,this.parentNode.id,'no')"> yes or no</span>
+<span id="span34">Does a.age == e.age? <input type="text" class="input" id="40" onkeyup="Check(this.id,this.parentNode.id,'yes')"> yes or no</span>
+</pre>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
   </body>
 </html>
